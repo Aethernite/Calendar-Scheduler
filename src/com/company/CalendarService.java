@@ -2,14 +2,14 @@ package com.company;
 
 import java.util.GregorianCalendar;
 
-public class CalendarController {
+public class CalendarService {
     private CalendarView view;
     private java.util.Calendar cal;
     private int month;
     private int year;
 
 
-    public CalendarController(){
+    public CalendarService(){
         this.view = view;
         this.cal = new GregorianCalendar();
     }

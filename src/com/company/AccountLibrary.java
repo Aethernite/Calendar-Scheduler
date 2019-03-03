@@ -1,7 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
-
+//CLASS FOR STORING DATA ABOUT ACCOUNTS
 public class AccountLibrary {
     private static ArrayList<Account> list = new ArrayList<Account>();
 

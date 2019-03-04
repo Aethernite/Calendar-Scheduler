@@ -27,7 +27,7 @@ public class StorageManager {
             fis.close();
         }
         catch(Exception e){
-            e.printStackTrace();
+            System.out.println("ERROR LOADING DB INTO MEMORY");
         }
     }
     public static void updateDataBase(){
@@ -41,7 +41,7 @@ public class StorageManager {
             fos.close();
         }
         catch(Exception e){
-            e.printStackTrace();
+            System.out.println("ERROR UPDATING DB FILE");
         }
     }
 

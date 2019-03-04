@@ -8,6 +8,7 @@ public class Main {
         boolean loggedIn = false;
         Account loggedInAcc = null;
         Validator v = new Validator();
+        StorageManager.loadAccDataIntoMemory();
         do {
             clearScreen();
             menu();
@@ -16,7 +17,7 @@ public class Main {
             switch (choice) {
                 case '1': {
                     Account user = menuLoginRegister(true);
-                    if (AccountLibrary.checkLogin(user)) {
+                    if (StorageManager.checkLogin(user)) {
                         System.out.println("LOGIN SUCCESSFUL!");
                         loggedIn = true;
                         loggedInAcc = user;
@@ -29,14 +30,14 @@ public class Main {
                 case '2': {
                         clearScreen();
                             Account user = menuLoginRegister(false);
-                        if (AccountLibrary.exists(user)) {
+                        if (StorageManager.exists(user)) {
                             System.out.println("USER ALREADY EXISTS");
                             break;
                         } else if (!(v.checkAccount(user))) {
                             System.out.println("INVALID USERNAME/PASSWORD TRY AGAIN!");
                             break;
                         } else {
-                            AccountLibrary.register(user);
+                            StorageManager.register(user);
                             System.out.println("Registration successful!");
                             break;
                         }

@@ -3,10 +3,9 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
-
+    private static boolean loggedIn = false;
+    private static Account userLogged = null;
     public static void main(String[] args) {
-        boolean loggedIn = false;
-        Account loggedInAcc = null;
         Validator v = new Validator();
         StorageManager.loadAccDataIntoMemory();
         do {
@@ -20,7 +19,7 @@ public class Main {
                     if (StorageManager.checkLogin(user)) {
                         System.out.println("LOGIN SUCCESSFUL!");
                         loggedIn = true;
-                        loggedInAcc = user;
+                        userLogged = user;
                         break;
                     } else {
                         System.out.println("LOGIN FAILED!");
@@ -48,13 +47,53 @@ public class Main {
             }
         }while(!loggedIn);
 
+        CalendarService calService = new CalendarService();
+        calService.defaultPrint();
+        menuLoggedIn();
+        char choice;
+
+        do {
+            choice = choice();
+
+            switch(choice){
+                case 'a':
+                    clearScreen();
+                    calService.printPreviousMonth();
+                    menuLoggedIn();
+                    break;
+                case 'd':
+                    clearScreen();
+                    calService.printNextMonth();
+                    menuLoggedIn();
+                    break;
+                default:
+                    break;
+            }
+        }while(choice != '6');
+
+
+
+
+
+
 
     }
 
-    private static char choice(){
+    private static void menuLoggedIn(){
+        System.out.println("USER:" + userLogged);
+        System.out.println("__________________________");
+        System.out.println("a <- previous month ----- next month -> d");
+        System.out.println("1) Create new event");
+        System.out.println("2) Show all events");
+        System.out.println("3) Edit event");
+        System.out.println("4) Delete event");
+        System.out.println("5) Exit");
+        System.out.println("Choice:");
+    }
+
+    static char choice(){
         Scanner sc = new Scanner(System.in);
-        char choice = sc.nextLine().charAt(0);
-        return choice;
+        return sc.nextLine().charAt(0);
     }
 
 
@@ -76,8 +115,8 @@ public class Main {
         String username = scanner.next();
         System.out.print("Enter password:");
         String password = scanner.next();
-        Account user = new Account(username, password);
-        return user;
+
+        return new Account(username, password);
     }
 
 

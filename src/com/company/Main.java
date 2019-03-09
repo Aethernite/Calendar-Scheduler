@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     private static boolean loggedIn = false;
-    private static Account userLogged = null;
     public static void main(String[] args) {
         Validator v = new Validator();
         StorageManager.loadAccDataIntoMemory();
@@ -17,9 +16,9 @@ public class Main {
                 case '1': {
                     Account user = menuLoginRegister(true);
                     if (StorageManager.checkLogin(user)) {
+                        StorageManager.setUser(user);
                         System.out.println("LOGIN SUCCESSFUL!");
                         loggedIn = true;
-                        userLogged = user;
                         break;
                     } else {
                         System.out.println("LOGIN FAILED!");
@@ -46,15 +45,13 @@ public class Main {
                     return;
             }
         }while(!loggedIn);
-
+        StorageManager.loadAccountFile();
         CalendarService calService = new CalendarService();
-        calService.defaultPrint();
-        menuLoggedIn();
         char choice;
-
         do {
+            calService.defaultPrint();
+            menuLoggedIn();
             choice = choice();
-
             switch(choice){
                 case 'a':
                     clearScreen();
@@ -65,6 +62,18 @@ public class Main {
                     clearScreen();
                     calService.printNextMonth();
                     menuLoggedIn();
+                    break;
+                case '1':
+                    EventManager.createEvent();
+                    break;
+                case '2':
+                    EventService.showAllEvents();
+                    break;
+                case '3':
+                    break;
+                case '4':
+                    break;
+                case '5':
                     break;
                 default:
                     break;
@@ -80,7 +89,7 @@ public class Main {
     }
 
     private static void menuLoggedIn(){
-        System.out.println("USER:" + userLogged);
+        System.out.println("USER:" + StorageManager.getUser());
         System.out.println("__________________________");
         System.out.println("a <- previous month ----- next month -> d");
         System.out.println("1) Create new event");

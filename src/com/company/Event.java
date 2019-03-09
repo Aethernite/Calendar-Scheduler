@@ -1,29 +1,31 @@
 package com.company;
 
+import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.Date;
 
-public class Event {
+public class Event implements Serializable {
     private String eventName;
     private String location;
-    private Date startDate;
-    private Date endDate;
-    private boolean allDay = true;
+    private LocalDate startDate;
+    private LocalDate endDate;
+    private boolean longerThanOneDay = false;
     private String note;
 
-    public Event(String eventName, String location, Date startDate, Date endDate, boolean allDay, String note) {
+    public Event(String eventName, String location, LocalDate startDate, LocalDate endDate, boolean longerThanOneDay, String note) {
         this.eventName = eventName;
         this.location = location;
         this.startDate = startDate;
         this.endDate = endDate;
-        this.allDay = allDay;
+        this.longerThanOneDay = longerThanOneDay;
         this.note = note;
     }
 
-    public Event(String eventName, String location, Date startDate, boolean allDay, String note) {
+    public Event(String eventName, String location, LocalDate startDate, boolean longerThanOneDay, String note) {
         this.eventName = eventName;
         this.location = location;
         this.startDate = startDate;
-        this.allDay = allDay;
+        this.longerThanOneDay = longerThanOneDay;
         this.note = note;
     }
 
@@ -43,29 +45,29 @@ public class Event {
         this.location = location;
     }
 
-    public Date getStartDate() {
+    public LocalDate getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(LocalDate startDate) {
         this.startDate = startDate;
     }
 
-    public Date getEndDate() {
+    public LocalDate getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(Date endDate) {
+    public void setEndDate(LocalDate endDate) {
         this.endDate = endDate;
     }
 
-    public boolean isAllDay() {
-        return allDay;
+    public boolean isLongerThanOneDay() {
+        return longerThanOneDay;
     }
 
-    public void setAllDay(boolean allDay) {
-        this.allDay = allDay;
-        if(this.allDay == true){
+    public void setAllDay(boolean longerThanOneDay) {
+        this.longerThanOneDay = longerThanOneDay;
+        if(this.longerThanOneDay == true){
             setEndDate(null);
         }
     }

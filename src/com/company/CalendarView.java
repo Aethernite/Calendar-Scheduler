@@ -3,6 +3,7 @@ package com.company;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Locale;
+import static com.company.AnsiColorCodes.*;
 
 public class CalendarView{
 
@@ -22,8 +23,7 @@ public class CalendarView{
 
     private void printCalendar(int numberOfMonthDays, int firstWeekdayOfMonth) {
         int weekdayIndex = 0;
-        System.out.println("Su  MO  Tu  We  Th  Fr  Sa"); // The order of days depends on your calendar
-
+        System.out.println(ANSI_YELLOW + "Su  MO  Tu  We  Th  Fr  Sa" + ANSI_RESET); // The order of days depends on your calendar
         for (int day = 1; day < firstWeekdayOfMonth; day++) {
             System.out.print("    "); //this loop to print the first day in his correct place
             weekdayIndex++;
@@ -42,7 +42,9 @@ public class CalendarView{
             }
         }
         System.out.println();
-        System.out.println("__________________________");
+        System.out.println(ANSI_YELLOW + "__________________________" + ANSI_RESET);
+        System.out.println("MOTD:" + CalendarService.getMOTD());
+        System.out.println(ANSI_YELLOW + "__________________________" + ANSI_RESET);
     }
 
 

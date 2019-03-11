@@ -1,82 +1,34 @@
 package com.company;
 
 import java.io.Serializable;
-import java.time.LocalDate;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 public class Event implements Serializable {
-    private String eventName;
+    private String title;
     private String location;
-    private LocalDate startDate;
-    private LocalDate endDate;
-    private boolean longerThanOneDay = false;
-    private String note;
+    private LocalDateTime date;
+    private String note = "Empty";
 
-    public Event(String eventName, String location, LocalDate startDate, LocalDate endDate, boolean longerThanOneDay, String note) {
-        this.eventName = eventName;
+    public Event(String title, String location, LocalDateTime date, String note) {
+        this.title = title;
         this.location = location;
-        this.startDate = startDate;
-        this.endDate = endDate;
-        this.longerThanOneDay = longerThanOneDay;
+        this.date = date;
         this.note = note;
     }
 
-    public Event(String eventName, String location, LocalDate startDate, boolean longerThanOneDay, String note) {
-        this.eventName = eventName;
-        this.location = location;
-        this.startDate = startDate;
-        this.longerThanOneDay = longerThanOneDay;
-        this.note = note;
-    }
-
-    public String getEventName() {
-        return eventName;
-    }
-
-    public void setEventName(String eventName) {
-        this.eventName = eventName;
+    public String getTitle() {
+        return title;
     }
 
     public String getLocation() {
         return location;
     }
 
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
-    public LocalDate getStartDate() {
-        return startDate;
-    }
-
-    public void setStartDate(LocalDate startDate) {
-        this.startDate = startDate;
-    }
-
-    public LocalDate getEndDate() {
-        return endDate;
-    }
-
-    public void setEndDate(LocalDate endDate) {
-        this.endDate = endDate;
-    }
-
-    public boolean isLongerThanOneDay() {
-        return longerThanOneDay;
-    }
-
-    public void setAllDay(boolean longerThanOneDay) {
-        this.longerThanOneDay = longerThanOneDay;
-        if(this.longerThanOneDay == true){
-            setEndDate(null);
-        }
+    public LocalDateTime getDate() {
+        return date;
     }
 
     public String getNote() {
         return note;
-    }
-
-    public void setNote(String note) {
-        this.note = note;
     }
 }

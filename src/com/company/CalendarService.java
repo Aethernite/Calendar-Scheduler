@@ -1,5 +1,6 @@
 package com.company;
 
+import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Scanner;
 
@@ -7,17 +8,18 @@ public class CalendarService{
     private CalendarView view;
     private int month;
     private int year;
+    private static String[] MOTDS = new String[30];
 
 
-    public CalendarService() {
+    public CalendarService(){
         this.view = new CalendarView();
     }
 
-    public void setMonth(int month) {
+    public void setMonth(int month){
         this.month = month;
     }
 
-    public void setYear(int year) {
+    public void setYear(int year){
         this.year = year;
     }
 
@@ -57,5 +59,18 @@ public class CalendarService{
             month++;
         }
         updateView();
+    }
+
+    //Message of the day methods
+    public static String getMOTD(){
+        LocalDate ld = LocalDate.now();
+        if(MOTDS[ld.getDayOfMonth()-1] == null){
+            return "No message of the day is found";
+        }
+        return MOTDS[ld.getDayOfMonth()];
+    }
+
+    public static void setMOTD(int day,String MOTD){
+        MOTDS[day-1] = MOTD;
     }
 }

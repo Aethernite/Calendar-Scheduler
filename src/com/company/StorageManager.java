@@ -3,6 +3,7 @@ package com.company;
 import java.io.*;
 import java.util.ArrayList;
 
+import static com.company.AnsiColorCodes.*;
 
 
 public class StorageManager {
@@ -28,7 +29,7 @@ public class StorageManager {
             fis.close();
         }
         catch(Exception e){
-            System.out.println("ERROR LOADING DB INTO MEMORY");
+            System.out.println(ANSI_RED + "ERROR LOADING DB INTO MEMORY" + ANSI_RESET);
         }
     }
     public static void updateDataBase(){
@@ -42,7 +43,7 @@ public class StorageManager {
             fos.close();
         }
         catch(Exception e){
-            System.out.println("ERROR UPDATING DB FILE");
+            System.out.println(ANSI_RED + "ERROR UPDATING DB FILE" + ANSI_RESET);
         }
     }
 
@@ -53,7 +54,7 @@ public class StorageManager {
         try {
             accFile.createNewFile(); // if file already exists will do nothing
         } catch(Exception e){
-            System.out.println("ERROR LOADING FILE INTO PROGRAM");
+            System.out.println(ANSI_RED + "ERROR LOADING FILE INTO PROGRAM" + ANSI_RESET);
         }
         try {
             FileInputStream fis = new FileInputStream(accFile);
@@ -70,7 +71,7 @@ public class StorageManager {
             ois.close();
             fis.close();
         }catch(Exception e){
-            System.out.println("ERROR OPENING STREAMS TO FILE");
+            System.out.println(ANSI_RED + "ERROR OPENING STREAMS TO FILE" + ANSI_RESET);
         }
     }
 
@@ -79,7 +80,7 @@ public class StorageManager {
         try {
             accFile.createNewFile(); // if file already exists will do nothing
         } catch(Exception e){
-            System.out.println("ERROR LOADING FILE INTO PROGRAM");
+            System.out.println(ANSI_RED + "ERROR LOADING FILE INTO PROGRAM" + ANSI_RESET);
         }
         try {
             FileOutputStream fos = new FileOutputStream(accFile,false);
@@ -90,7 +91,7 @@ public class StorageManager {
             oos.close();
             fos.close();
         }catch(Exception e){
-            System.out.println("ERROR OPENING STREAMS TO FILE");
+            System.out.println(ANSI_RED + "ERROR OPENING STREAMS TO FILE" + ANSI_RESET);
         }
     }
 

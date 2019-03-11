@@ -55,18 +55,16 @@ public class Main {
         CalendarService calService = new CalendarService();
         EventService evtService = new EventService();
         char choice;
+        calService.defaultPrint();
         do {
-            calService.defaultPrint();
             menuLoggedIn();
             choice = choice();
             switch(choice){
                 case 'a':
                     calService.printPreviousMonth();
-                    menuLoggedIn();
                     break;
                 case 'd':
                     calService.printNextMonth();
-                    menuLoggedIn();
                     break;
                 case '1':
                     EventManager.createEvent();

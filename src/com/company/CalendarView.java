@@ -11,7 +11,7 @@ public class CalendarView{
         Calendar cal = new GregorianCalendar();
         cal.clear();
         cal.set(year, month - 1, 1); // setting the calendar to the month and year provided as parameters
-        System.out.println("__________________________");
+        System.out.println(ANSI_YELLOW + "__________________________" + ANSI_RESET);
         System.out.println("Calendar for "+ cal.getDisplayName(java.util.Calendar.MONTH, java.util.Calendar.LONG,
                 Locale.US) + " " + cal.get(Calendar.YEAR));//to print Calendar for month and year
 

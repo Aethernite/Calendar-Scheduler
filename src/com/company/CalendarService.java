@@ -30,7 +30,7 @@ public class CalendarService{
         updateView();
     }
 
-    public void updateView() {
+    public void updateView(){
         view.printCalendarMonthYear(month, year);
     }
 

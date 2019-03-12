@@ -1,10 +1,10 @@
 package com.company;
 
 import java.time.LocalDateTime;
-import java.time.chrono.ChronoLocalDate;
 import java.time.chrono.ChronoLocalDateTime;
 import java.util.ArrayList;
 import static com.company.AnsiColorCodes.*;
+
 public class EventService {
 
 
@@ -23,8 +23,8 @@ public class EventService {
     public void showAllEvents(){
         ArrayList<Event> listEvents = StorageManager.getListEvents();
         boolean isThereEvent = false;
+        int i=1;
         for(Event event: listEvents){
-            int i=1;
             System.out.println(ANSI_YELLOW + i++ + ")" + "---------------------" + ANSI_RESET);
             printEventDetails(event);
             System.out.println(ANSI_YELLOW  + "-----------------------" + ANSI_RESET);
@@ -39,8 +39,8 @@ public class EventService {
         ArrayList<Event> listEvents = StorageManager.getListEvents();
         LocalDateTime ldt = LocalDateTime.now();
         boolean isThereEvent = false;
+        int i=1;
         for(Event event: listEvents){
-            int i=1;
             if(event.getDate().getMonthValue() == ldt.getMonthValue()){
                 System.out.println(ANSI_YELLOW + i++ + ")" + "---------------------" + ANSI_RESET);
                 printEventDetails(event);
@@ -56,8 +56,8 @@ public class EventService {
     public void showAllEventsBetweenTwoDates(ChronoLocalDateTime date1, ChronoLocalDateTime date2){
         ArrayList<Event> listEvents = StorageManager.getListEvents();
         boolean isThereEvent = false;
+        int i=1;
         for(Event event: listEvents){
-            int i=1;
             if(event.getDate().isAfter(date1) && event.getDate().isBefore(date2)){
                 System.out.println(ANSI_YELLOW + i++ + ")" + "---------------------" + ANSI_RESET);
                 printEventDetails(event);

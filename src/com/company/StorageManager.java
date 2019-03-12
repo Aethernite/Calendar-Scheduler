@@ -52,11 +52,6 @@ public class StorageManager {
     public static void loadAccountFile(){
         File accFile = new File("./Data/AccountData/" + user.getUsername().toLowerCase() + ".dat");
         try {
-            accFile.createNewFile(); // if file already exists will do nothing
-        } catch(Exception e){
-            System.out.println(ANSI_RED + "ERROR LOADING FILE INTO PROGRAM" + ANSI_RESET);
-        }
-        try {
             FileInputStream fis = new FileInputStream(accFile);
             ObjectInputStream ois = new ObjectInputStream(fis);
             listEvents = new ArrayList<Event>();
@@ -70,18 +65,16 @@ public class StorageManager {
             }
             ois.close();
             fis.close();
-        }catch(Exception e){
-            System.out.println(ANSI_RED + "ERROR OPENING STREAMS TO FILE" + ANSI_RESET);
+        }catch(IOException e){
+            System.out.println(ANSI_GREEN + "ACCOUNT FILE EMPTY" + ANSI_RESET);
+        }
+        catch(Exception e){
+            System.out.println(ANSI_RED + "ERROR IN LOADING FILE" + ANSI_RESET);
         }
     }
 
     public static void updateAccountFile(){
         File accFile = new File("./Data/AccountData/" + user.getUsername().toLowerCase() + ".dat");
-        try {
-            accFile.createNewFile(); // if file already exists will do nothing
-        } catch(Exception e){
-            System.out.println(ANSI_RED + "ERROR LOADING FILE INTO PROGRAM" + ANSI_RESET);
-        }
         try {
             FileOutputStream fos = new FileOutputStream(accFile,false);
             ObjectOutputStream oos = new ObjectOutputStream(fos);
@@ -91,7 +84,7 @@ public class StorageManager {
             oos.close();
             fos.close();
         }catch(Exception e){
-            System.out.println(ANSI_RED + "ERROR OPENING STREAMS TO FILE" + ANSI_RESET);
+            System.out.println(ANSI_RED + "ERROR IN UPDATING ACCOUNT FILE" + ANSI_RESET);
         }
     }
 
@@ -140,6 +133,22 @@ public class StorageManager {
     public static void register(Account acc){
         listAcc.add(acc);
         updateDataBase();
+        File accFile = new File("./Data/AccountData/" + acc.getUsername().toLowerCase() + ".dat");
+        try {
+            accFile.createNewFile();
+        } catch(IOException e){
+            System.out.println(ANSI_RED + "ERROR CREATING FILE FOR THE ACCOUNT" + ANSI_RESET);
+        }
+    }
+   //EVENT EDIT
+
+    public static void editEvent(int index,Event ev){
+        listEvents.set(index,ev);
+        updateAccountFile();
     }
 
+    public static void deleteEvent(int index){
+        listEvents.remove(index);
+        updateAccountFile();
+    }
 }

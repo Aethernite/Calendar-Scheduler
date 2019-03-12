@@ -1,5 +1,7 @@
 package com.company;
 
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.time.chrono.ChronoLocalDate;
 import java.time.chrono.ChronoLocalDateTime;
 import java.util.Scanner;
@@ -14,10 +16,8 @@ public class Main {
         Validator v = new Validator();
         StorageManager.loadAccDataIntoMemory();
         do {
-            clearScreen();
             menu();
-            System.out.flush();
-            char choice = choice();
+            char choice = sc.nextLine().charAt(0);
             switch (choice) {
                 case '1': {
                     Account user = menuLoginRegister(true);
@@ -32,7 +32,6 @@ public class Main {
                     }
                 }
                 case '2': {
-                        clearScreen();
                             Account user = menuLoginRegister(false);
                         if (StorageManager.exists(user)) {
                             System.out.println(ANSI_RED + "USER ALREADY EXISTS" + ANSI_RESET);
@@ -46,6 +45,8 @@ public class Main {
                             break;
                         }
                 }
+                case '3':
+                    System.exit(0);
                 default:
                     System.out.println(ANSI_RED + "Invalid choice" + ANSI_RESET);
                     return;
@@ -58,7 +59,7 @@ public class Main {
         calService.defaultPrint();
         do {
             menuLoggedIn();
-            choice = choice();
+            choice = sc.nextLine().charAt(0);
             switch(choice){
                 case 'a':
                     calService.printPreviousMonth();
@@ -73,7 +74,7 @@ public class Main {
                     char evMenuChoice;
                     do {
                         menuEvents();
-                        evMenuChoice = choice();
+                        evMenuChoice = sc.nextLine().charAt(0);
 
                         switch(evMenuChoice){
                             case '1':
@@ -96,14 +97,18 @@ public class Main {
                                 break;
                         }
                     }while(evMenuChoice!='4');
-
+                    calService.defaultPrint();
                     break;
                 case '3':
+                    EventManager.editEvent();
+                    calService.defaultPrint();
                     break;
                 case '4':
+                    EventManager.deleteEvent();
+                    calService.defaultPrint();
                     break;
                 case '5':
-                    break;
+                    System.exit(0);
                 default:
                     break;
             }
@@ -116,38 +121,28 @@ public class Main {
 
 
     }
-
+//MENUS
     private static void menuLoggedIn(){
-        System.out.println("USER:" + StorageManager.getUser());
-        System.out.println("__________________________");
+        System.out.println("USER:" + ANSI_CYAN + StorageManager.getUser() + ANSI_RESET);
+        System.out.println(ANSI_YELLOW + "__________________________" + ANSI_RESET);
         System.out.println("a <- previous month ----- next month -> d");
-        System.out.println("1) Create new event");
-        System.out.println("2) Show events menu");
-        System.out.println("3) Edit event");
-        System.out.println("4) Delete event");
-        System.out.println("5) Exit");
+        System.out.println(ANSI_CYAN + "1)" + ANSI_RESET + "Create new event");
+        System.out.println(ANSI_CYAN + "2)"+ ANSI_RESET + "Show events menu");
+        System.out.println(ANSI_CYAN + "3)"+ ANSI_RESET + "Edit event");
+        System.out.println(ANSI_CYAN + "4)" + ANSI_RESET + "Delete event");
+        System.out.println(ANSI_CYAN + "5)" + ANSI_RESET +  "Exit");
         System.out.println("Choice:");
     }
 
-    private static void menuEvents(){
-        System.out.println("1)Show all events");
-        System.out.println("2)Show events for the current month");
-        System.out.println("3)Show events between two dates");
-        System.out.println("4) Back");
-        System.out.println("Choice:");
-    }
 
-    public static char choice(){
-        char choice = sc.nextLine().charAt(0);
-        return choice;
-    }
 
 
     private static void menu(){
         System.out.println(ANSI_YELLOW + "=========================" + ANSI_RESET);
         System.out.println(ANSI_YELLOW + "Options:" + ANSI_RESET);
-        System.out.println("1)Login");
-        System.out.println("2)Register");
+        System.out.println(ANSI_CYAN + "1)" + ANSI_RESET + "Login");
+        System.out.println(ANSI_CYAN + "2)" + ANSI_RESET + "Register");
+        System.out.println(ANSI_CYAN + "1)" + ANSI_RESET + "Exit");
         System.out.print(ANSI_YELLOW + "Enter choice:" + ANSI_RESET);
     }
 
@@ -161,13 +156,15 @@ public class Main {
         String username = sc.nextLine();
         System.out.print("Enter password:");
         String password = sc.nextLine();
-
         return new Account(username, password);
     }
 
-
-    private static void clearScreen() {
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
+    private static void menuEvents(){
+        System.out.println(ANSI_YELLOW +"=========================" + ANSI_RESET);
+        System.out.println(ANSI_CYAN + "1)" + ANSI_RESET + "Show all events");
+        System.out.println(ANSI_CYAN + "2)" + ANSI_RESET + "Show events for the current month");
+        System.out.println(ANSI_CYAN + "3)" + ANSI_RESET + "Show events between two dates");
+        System.out.println(ANSI_CYAN + "4)" + ANSI_RESET + " Back");
+        System.out.println("Choice:");
     }
 }

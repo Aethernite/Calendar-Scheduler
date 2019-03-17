@@ -59,12 +59,22 @@ private static Scanner sc = new Scanner(System.in);
     }
 
     public static ChronoLocalDateTime dateInput(){
-        String[] input = sc.nextLine().split("-");
-        int day = Integer.parseInt(input[0]);
-        int month = Integer.parseInt(input[1]);
-        int year = Integer.parseInt(input[2]);
-        ChronoLocalDateTime cld = LocalDateTime.of(year,month,day,0,0);
-        return cld;
+        String date;
+        do {
+            date = sc.nextLine();
+            if (DateValidator.isDateValid(date)) {
+                String[] input = date.split("-");
+                int day = Integer.parseInt(input[0]);
+                int month = Integer.parseInt(input[1]);
+                int year = Integer.parseInt(input[2]);
+                ChronoLocalDateTime cld = LocalDateTime.of(year, month, day, 0, 0);
+                return cld;
+            }
+            else{
+                System.out.println("Invalid date!\nEnter again:");
+            }
+        }while(!DateValidator.isDateValid(date));
+        return null;
     }
 
     public static void deleteEvent() {

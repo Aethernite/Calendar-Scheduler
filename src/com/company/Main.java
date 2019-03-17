@@ -12,7 +12,7 @@ public class Main {
     private static boolean loggedIn = false;
     private static Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Validator v = new Validator();
         StorageManager.loadAccDataIntoMemory();
         do {

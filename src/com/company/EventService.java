@@ -11,7 +11,7 @@ public class EventService {
     public EventService() {
     }
 
-    private void printEventDetails(Event ev){
+    private static void printEventDetails(Event ev){
         System.out.println("Event name: " + ev.getTitle());
         System.out.println("Location: " + ev.getLocation());
         System.out.println("Date and time: " + ev.getDate().getDayOfMonth() + " " + ev.getDate().getMonth() + " " + ev.getDate().getYear() + " " + ev.getDate().getHour() + ":" + ev.getDate().getMinute());
@@ -20,7 +20,7 @@ public class EventService {
 
 
 
-    public void showAllEvents(){
+    public static boolean showAllEvents(){
         ArrayList<Event> listEvents = StorageManager.getListEvents();
         boolean isThereEvent = false;
         int i=1;
@@ -32,10 +32,12 @@ public class EventService {
         }
         if(!isThereEvent){
             System.out.println("No events found for current account.");
+            return false;
         }
+        return true;
     }
 
-    public void showAllEventsForCurrentMonth(){
+    public static boolean showAllEventsForCurrentMonth(){
         ArrayList<Event> listEvents = StorageManager.getListEvents();
         LocalDateTime ldt = LocalDateTime.now();
         boolean isThereEvent = false;
@@ -50,10 +52,12 @@ public class EventService {
         }
         if(!isThereEvent){
             System.out.println("No events found for the month.");
+            return false;
         }
+        return true;
     }
 
-    public void showAllEventsBetweenTwoDates(ChronoLocalDateTime date1, ChronoLocalDateTime date2){
+    public static boolean showAllEventsBetweenTwoDates(ChronoLocalDateTime date1, ChronoLocalDateTime date2){
         ArrayList<Event> listEvents = StorageManager.getListEvents();
         boolean isThereEvent = false;
         int i=1;
@@ -67,7 +71,9 @@ public class EventService {
         }
         if(!isThereEvent){
             System.out.println("No events found between the two dates.");
+            return false;
         }
+        return true;
     }
 
 }

@@ -44,6 +44,7 @@ public class CalendarService{
     public void printPreviousMonth(){
         if(month-1<1){
             month = 12;
+            year--;
         }
         else{
             month--;

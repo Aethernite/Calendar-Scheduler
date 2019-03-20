@@ -3,7 +3,7 @@ package com.company.utils.calendar;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Locale;
-import static com.company.utils.AnsiColorCodes.*;
+import static com.company.utils.frontend.AnsiColorCodes.*;
 
 public class CalendarView{
     private boolean highlight = false;

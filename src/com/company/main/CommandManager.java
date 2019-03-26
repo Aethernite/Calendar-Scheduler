@@ -1,7 +1,7 @@
 package com.company.main;
 
 import com.company.commands.Command;
-import com.company.commands.misc.LoadAccounts;
+import com.company.commands.LoadAccounts;
 
 public class CommandManager {
     public static void main(String[] args) {

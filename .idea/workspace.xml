@@ -3,54 +3,51 @@
   <component name="ChangeListManager">
     <list default="true" id="c1ee08f2-2e74-4837-a934-41750cd72fd5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/CreateEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/DeleteEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/EditEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/EditEventMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/Exit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/HomeMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/LoadAccountFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/LoadAccounts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/MainMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/NextMonth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/PreviousMonth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/Register.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/ShowEventsMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AccountData/borislav123.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AccountData/borislav123.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/db.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Data/db.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/misc/LoadAccountFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/misc/LoadAccounts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/misc/NextMonth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/misc/PreviousMonth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/pages/DefaultPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/pages/EditEventMenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/pages/EditEventMenuPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/pages/HomeMenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/pages/HomeMenuPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/pages/MainMenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/pages/MainMenuPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/pages/ShowEventsMenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/pages/ShowEventsMenuPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/views/CreateEventView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/views/DeleteEventView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/views/EditEventMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/views/EditEventView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/views/Exit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/views/HomeMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/views/LoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/views/MainMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/views/RegisterView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/commands/views/ShowEventsMenuView.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/main/CommandManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/main/CommandManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/pages/DefaultPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/pages/EditEventMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/pages/HomeMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/pages/MainMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/pages/ShowEventsMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/utils/AnsiColorCodes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/utils/EventService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/utils/StorageManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/utils/calendar/CalendarView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/utils/calendar/CalendarView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/CreateEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/views/CreateEventView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/DeleteEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/views/DeleteEventView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/EditEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/views/EditEventView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/EditEventMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/views/EditEventMenuView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/views/Exit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/HomeMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/views/HomeMenuView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/LoadAccountFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/misc/LoadAccountFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/LoadAccounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/misc/LoadAccounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/views/LoginView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/views/MainMenuView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/NextMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/misc/NextMonth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/PreviousMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/misc/PreviousMonth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/views/RegisterView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/commands/ShowEventsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/views/ShowEventsMenuView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/utils/calendar/CalendarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAP PROJECT/com/company/utils/calendar/CalendarService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/misc/LoadAccountFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/LoadAccountFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/misc/LoadAccounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/LoadAccounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/misc/NextMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/NextMonth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/misc/PreviousMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/PreviousMonth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/pages/DefaultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/pages/DefaultCalendarPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/pages/EditEventMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/pages/EditEventMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/pages/HomeMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/pages/HomeMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/pages/MainMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/pages/MainMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/pages/ShowEventsMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/pages/ShowEventsMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/views/CreateEventView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/CreateEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/views/DeleteEventView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/DeleteEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/views/EditEventMenuView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/views/EditEventView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/views/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/Exit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/views/HomeMenuView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/views/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/views/MainMenuView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/views/RegisterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/commands/views/ShowEventsMenuView.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/main/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main/CommandManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/pages/DefaultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/pages/DefaultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/pages/EditEventMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/pages/EditEventMenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/pages/HomeMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/pages/HomeMenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/pages/MainMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/pages/MainMenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/pages/ShowEventsMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/commands/pages/ShowEventsMenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/utils/AnsiColorCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/utils/frontend/AnsiColorCodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/utils/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/utils/event/EventService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/utils/StorageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/utils/storage/StorageManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/utils/calendar/CalendarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/utils/calendar/CalendarView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/utils/calendar/CalendarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/utils/calendar/CalendarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/utils/validators/DateValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/utils/validators/DateValidator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,22 +61,10 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/utils/event/EventService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/company/main/CommandManager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+                <state relative-caret-position="238">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -88,10 +73,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/RegisterView.java">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/RegisterPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+                <state relative-caret-position="300">
+                  <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -102,8 +87,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/company/utils/storage/StorageManager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+                <state relative-caret-position="-1584">
+                  <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -112,18 +97,18 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/Exit.java">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/Exit.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/commands/misc/LoadAccountFile.java">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/LoadAccountFile.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
+                <state relative-caret-position="68">
                   <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
                 </state>
               </provider>
@@ -139,7 +124,31 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/commands/misc/LoadAccounts.java">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/LoadAccounts.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/company/utils/validators/DateValidator.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/NextMonth.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
                   <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -150,20 +159,8 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/commands/misc/NextMonth.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/commands/misc/PreviousMonth.java">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/PreviousMonth.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
                   <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -179,10 +176,10 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/utils/calendar/CalendarView.java">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/ShowEventsMenuPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                <state relative-caret-position="232">
+                  <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -191,19 +188,24 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/commands/Command.java">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/CreateEvent.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="34">
-                  <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#544#545#0" expanded="true" />
+                    <element signature="e#580#581#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/utils/validators/DateValidator.java">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/HomeMenuPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                <state relative-caret-position="317">
+                  <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -212,24 +214,14 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/EditEventView.java">
+            <entry file="file://$PROJECT_DIR$/src/com/company/utils/calendar/CalendarService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+                <state relative-caret-position="293">
+                  <caret line="65" column="41" lean-forward="true" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/EditEventMenuView.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#679#680#0" expanded="true" />
+                    <element signature="e#735#736#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -238,20 +230,22 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/EditEventMenuPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+                <state relative-caret-position="-34">
+                  <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#713#714#0" expanded="true" />
+                    <element signature="e#749#750#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/ShowEventsMenuView.java">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/MainMenuPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+                <state relative-caret-position="340">
+                  <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -260,19 +254,7 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/CreateEventView.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/DeleteEventView.java">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/LoginPage.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="187">
                   <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -284,10 +266,25 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/company/utils/validators/TimeValidator.java">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/DefaultCalendarPrint.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                <state relative-caret-position="204">
+                  <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/company/commands/DeleteEvent.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -315,27 +312,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/View/Exit.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/RegisterPage.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Validator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/LoadAccountFile.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/MainMenuPage.java" />
-        <option value="$PROJECT_DIR$/src/com/company/DateValidator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/TimeValidator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/DefaultPage.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/EditEvent.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/EditEventMenuPage.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/EditEvent/EditEventMenuPage.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/EditEvent/EditEventMenu.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/ShowEventsMenuPage.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/DeleteEvent.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/MainMenu.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/Register.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/Home.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/Login.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/HomePage.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CreateEvent.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/HomeMenu.java" />
@@ -346,11 +322,9 @@
         <option value="$PROJECT_DIR$/src/com/company/EventManager.java" />
         <option value="$PROJECT_DIR$/src/com/company/EventService.java" />
         <option value="$PROJECT_DIR$/src/com/company/commands/ShowEventsMenu.java" />
-        <option value="$PROJECT_DIR$/src/com/company/commands/LoadAccounts.java" />
         <option value="$PROJECT_DIR$/src/com/company/main/CommandManager.java" />
         <option value="$PROJECT_DIR$/src/com/company/utils/DateValidator.java" />
         <option value="$PROJECT_DIR$/src/com/company/utils/StorageManager.java" />
-        <option value="$PROJECT_DIR$/src/com/company/commands/DeleteEvent.java" />
         <option value="$PROJECT_DIR$/src/com/company/commands/EditEventMenuPage.java" />
         <option value="$PROJECT_DIR$/src/com/company/commands/EditEvent.java" />
         <option value="$PROJECT_DIR$/src/com/company/commands/EditEventMenu.java" />
@@ -365,7 +339,30 @@
         <option value="$PROJECT_DIR$/src/com/company/commands/Login.java" />
         <option value="$PROJECT_DIR$/src/com/company/utils/EventService.java" />
         <option value="$PROJECT_DIR$/src/com/company/commands/ShowEventsMenuView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/pages/HomeMenuPage.java" />
         <option value="$PROJECT_DIR$/src/com/company/commands/views/ShowEventsMenuView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/views/EditEventView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/views/EditEventMenuView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/pages/EditEventMenuView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/pages/EditEventMenuPage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/pages/MainMenuPage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/pages/DefaultCalendarPrint.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/views/CreateEventView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/views/LoginView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/views/RegisterView.java" />
+        <option value="$PROJECT_DIR$/src/com/company/utils/calendar/CalendarService.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/pages/ShowEventsMenuPage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/views/CreateEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/views/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/Exit.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/DeleteEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/CreateEvent.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/pages/RegisterPage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/LoadMOTDS.java" />
+        <option value="$PROJECT_DIR$/src/com/company/utils/storage/StorageManager.java" />
+        <option value="$PROJECT_DIR$/src/com/company/commands/LoadAccounts.java" />
+        <option value="$PROJECT_DIR$/src/com/company/utils/validators/DateValidator.java" />
       </list>
     </option>
   </component>
@@ -381,6 +378,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -399,22 +398,93 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SAP PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SAP PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SAP PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SAP PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SAP PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SAP PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SAP PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SAP PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SAP PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SAP PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="calendar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SAP PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SAP PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SAP PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SAP PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SAP PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SAP PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SAP PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SAP PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="validators" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553092959245" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553617498080" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.commands.pages" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.company" />
     </key>
@@ -478,16 +548,17 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16897655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Extract Method" weight="0.32981783" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24832214" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11217641" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39980826" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -510,10 +581,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/commands/views/LoginView.java</url>
+          <url>file://$PROJECT_DIR$/src/com/company/commands/pages/LoginPage.java</url>
           <line>18</line>
           <properties />
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/main/CommandManager.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/company/main/CommandManager.java</url>
@@ -556,16 +633,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/View/RegisterPage.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/View/EditEvent/EditEventMenuPage.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/View/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/ShowEventsMenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/objects/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -585,39 +652,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/HomeMenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/MainMenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="93" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/commands/ResetCalendar.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/utils/calendar/CalendarService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/utils/validators/AccountValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -628,10 +663,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/DefaultPage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/utils/event/EventService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -640,7 +675,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/utils/calendar/CalendarView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="68">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -655,26 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/utils/validators/DateValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/EditEventMenuPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/utils/validators/TimeValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -682,47 +697,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/CreateEventView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/HomeMenuView.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/utils/frontend/AnsiColorCodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/EditEventView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="43" column="46" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="43" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/DeleteEventView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/EditEventMenuView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/EditEventMenuView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/HomeMenuView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -731,103 +727,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/MainMenuView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/EditEventView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/ShowEventsMenuView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="1037">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/RegisterView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/main/CommandManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/misc/LoadAccountFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/misc/LoadAccounts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/misc/NextMonth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/misc/PreviousMonth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/commands/views/Exit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/utils/frontend/AnsiColorCodes.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/CreateEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/utils/storage/StorageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/utils/event/EventService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/DeleteEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -837,10 +774,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/main/CommandManager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/Exit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/LoadAccountFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/LoadMOTDS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/utils/calendar/CalendarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="65" column="41" lean-forward="true" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/HomeMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/utils/storage/StorageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584">
+          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/LoadAccounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/utils/validators/DateValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/ShowEventsMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/DefaultCalendarPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/EditEventMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/MainMenuPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/pages/RegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/NextMonth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/commands/PreviousMonth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

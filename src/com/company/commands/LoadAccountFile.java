@@ -1,8 +1,8 @@
-package com.company.commands.misc;
+package com.company.commands;
 
 import com.company.commands.Command;
 import com.company.utils.storage.StorageManager;
-import com.company.commands.pages.DefaultPage;
+import com.company.commands.pages.DefaultCalendarPrint;
 
 public class LoadAccountFile implements Command {
     private Command parent;
@@ -15,6 +15,6 @@ public class LoadAccountFile implements Command {
     @Override
     public Command execute(){
         StorageManager.loadAccountFile();
-        return new DefaultPage(this);
+        return new DefaultCalendarPrint(this);
     }
 }

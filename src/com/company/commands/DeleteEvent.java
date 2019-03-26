@@ -1,19 +1,18 @@
-package com.company.commands.views;
-import com.company.commands.Command;
+package com.company.commands;
 import com.company.utils.event.EventService;
 import com.company.utils.storage.StorageManager;
-import com.company.commands.pages.DefaultPage;
+import com.company.commands.pages.DefaultCalendarPrint;
 
 import java.util.Scanner;
 
 import static com.company.utils.frontend.AnsiColorCodes.*;
 
 
-public class DeleteEventView implements Command {
+public class DeleteEvent implements Command {
     private Command parent;
     private static Scanner sc = new Scanner(System.in);
 
-    public DeleteEventView(Command parent) {
+    public DeleteEvent(Command parent) {
         this.parent = parent;
     }
 
@@ -26,7 +25,7 @@ public class DeleteEventView implements Command {
                         System.out.println("Choose an event to delete(0 to go back):");
                         char choice = sc.nextLine().charAt(0);
                         if(choice=='0'){
-                            return new DefaultPage(this);
+                            return new DefaultCalendarPrint(this);
                         }
                         index = choice - 49;
                         if(index<0 || index>size-1){
@@ -36,7 +35,7 @@ public class DeleteEventView implements Command {
                     StorageManager.deleteEvent(index);
                     System.out.println(ANSI_GREEN + "Event deleted!" + ANSI_RESET);
                 }
-                return new DefaultPage(this);
+                return new DefaultCalendarPrint(this);
 
             }
         }

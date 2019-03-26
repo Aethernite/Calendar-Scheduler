@@ -1,6 +1,5 @@
-package com.company.commands.misc;
+package com.company.commands;
 
-import com.company.commands.Command;
 import com.company.commands.pages.HomeMenuPage;
 import com.company.utils.storage.StorageManager;
 

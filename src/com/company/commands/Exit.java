@@ -1,6 +1,5 @@
-package com.company.commands.views;
+package com.company.commands;
 
-import com.company.commands.Command;
 
 public class Exit implements Command {
     private Command parent;

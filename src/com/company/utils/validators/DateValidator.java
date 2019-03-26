@@ -4,7 +4,6 @@ import java.time.DateTimeException;
 import java.time.LocalDate;
 
 public class DateValidator {
-    final static String DATE_FORMAT = "dd-MM-yyyy";
 
     public static boolean isDateValid(String date) {
         boolean dateIsValid = true;

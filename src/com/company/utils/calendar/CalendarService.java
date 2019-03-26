@@ -4,16 +4,11 @@ import java.time.LocalDate;
 import java.util.Calendar;
 
 public class CalendarService{
-    private static CalendarView view;
+    private static CalendarView view = new CalendarView();
     private static int month;
     private static int year;
     private static String[] MOTDS = new String[30];
 
-
-    public CalendarService(){
-
-        this.view = new CalendarView();
-    }
 
     public static void setMonth(int newMonth){
         month = newMonth;

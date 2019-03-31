@@ -1,12 +1,7 @@
 package com.company.commands.pages;
 
-import com.company.commands.NextMonth;
-import com.company.commands.PreviousMonth;
-import com.company.commands.CreateEvent;
-import com.company.commands.DeleteEvent;
-import com.company.commands.Exit;
+import com.company.commands.*;
 import com.company.utils.storage.StorageManager;
-import com.company.commands.Command;
 
 import java.util.Scanner;
 
@@ -44,6 +39,8 @@ public class MainMenuPage implements Command {
             case '4':
                 return new DeleteEvent(this);
             case '5':
+                return new ChangeMOTDS(this);
+            case '6':
                 return new Exit(this);
             default:
                 System.out.println("Invalid input!");
@@ -61,7 +58,8 @@ public class MainMenuPage implements Command {
         System.out.println(ANSI_CYAN + "2)"+ ANSI_RESET + "Show events menu");
         System.out.println(ANSI_CYAN + "3)"+ ANSI_RESET + "Edit event");
         System.out.println(ANSI_CYAN + "4)" + ANSI_RESET + "Delete event");
-        System.out.println(ANSI_CYAN + "5)" + ANSI_RESET +  "Exit");
+        System.out.println(ANSI_CYAN + "5)" + ANSI_RESET + "Change MOTDS");
+        System.out.println(ANSI_CYAN + "6)" + ANSI_RESET +  "Exit");
         System.out.println("Choice:");
     }
 }

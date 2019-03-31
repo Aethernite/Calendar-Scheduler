@@ -1,13 +1,11 @@
 package com.company.utils.calendar;
 
-import java.time.LocalDate;
 import java.util.Calendar;
 
 public class CalendarService{
     private static CalendarView view = new CalendarView();
     private static int month;
     private static int year;
-    private static String[] MOTDS = new String[30];
 
 
     public static void setMonth(int newMonth){
@@ -57,16 +55,5 @@ public class CalendarService{
         updateView();
     }
 
-    //Message of the day methods
-    public static String getMOTD(){
-        LocalDate ld = LocalDate.now();
-        if(MOTDS[ld.getDayOfMonth()-1] == null){
-            return "No message of the day is found";
-        }
-        return MOTDS[ld.getDayOfMonth()];
-    }
 
-    public static void setMOTD(int day,String MOTD){
-        MOTDS[day-1] = MOTD;
-    }
 }

@@ -3,16 +3,17 @@ package com.company.commands;
 import com.company.commands.pages.HomeMenuPage;
 import com.company.utils.storage.StorageManager;
 
-public class LoadAccounts implements Command {
+public class LoadAccountsAndMOTDS implements Command {
     private Command parent;
 
-    public LoadAccounts(Command parent){
+    public LoadAccountsAndMOTDS(Command parent){
         this.parent = parent;
     }
 
     @Override
     public Command execute(){
         StorageManager.loadAccDataIntoMemory();
+        StorageManager.loadMOTDFile();
         return new HomeMenuPage(this);
     }
 }

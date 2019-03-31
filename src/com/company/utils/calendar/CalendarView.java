@@ -1,5 +1,7 @@
 package com.company.utils.calendar;
 
+import com.company.utils.storage.StorageManager;
+
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Locale;
@@ -70,7 +72,7 @@ public class CalendarView{
         }
         System.out.println();
         System.out.println(ANSI_YELLOW + "__________________________" + ANSI_RESET);
-        System.out.println("MOTD:" + CalendarService.getMOTD());
+        System.out.println("MOTD:" + StorageManager.getMOTD());
         System.out.println(ANSI_YELLOW + "__________________________" + ANSI_RESET);
     }
 

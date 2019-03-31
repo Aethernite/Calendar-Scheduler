@@ -1,7 +1,7 @@
 package com.company.main;
 
 import com.company.commands.Command;
-import com.company.commands.LoadAccounts;
+import com.company.commands.LoadAccountsAndMOTDS;
 
 public class CommandManager {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class CommandManager {
         main.start();
     }
         public void start() {
-            Command nextCommand = new LoadAccounts(null);
+            Command nextCommand = new LoadAccountsAndMOTDS(null);
 
             while(nextCommand != null) {
                 nextCommand = nextCommand.execute();
